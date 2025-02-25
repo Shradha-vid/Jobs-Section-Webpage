@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+.pricing-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    width: 300px;
+}
+.pricing-card:hover {
+    transform: translateY(-5px);
+}
+.popular {
+    border: 2px solid #6C63FF;
+    position: relative;
+}
+.popular::before {
+    content: "Popular";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #6C63FF;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+.subtext {
+    font-size: 14px;
+    color: #fff;
+}
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.checklist li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 8px;
+}
+.checklist li i {
+    color: #6C63FF;
+    font-weight: bold;
+}
+.btn-custom {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.btn-primary-custom {
+    background: #6C63FF;
+    color: #fff;
+}
+.btn-primary-custom:hover {
+    background: #564FC5;
+}
+.btn-outline-custom {
+    border: 1px solid #6C63FF;
+    color: #6C63FF;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.btn-outline-custom:hover {
+    background: #6C63FF;
+    color: #fff;
+}
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 2px solid #9370DB; /* Light Purple Border */
+    border-radius: 25px; /* Rounded Corners */
+    background-color: transparent;
+    color: #9370DB; /* Light Purple Text & Icon */
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+  }
+
+  .language-selector {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    position: relative; /* Needed for dropdown positioning */
+  }
+  
+  .language-selector span {
+    margin-right: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Position below the button */
+    left: 0;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .show {
+    display: block;
+  }

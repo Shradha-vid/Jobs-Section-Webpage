@@ -1,0 +1,92 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+  }
+.pricing-section {
+text-align: center;
+padding: 60px 20px;
+}
+.pricing-title {
+font-weight: bold;
+font-size: 32px;
+color: #222;
+margin-bottom: 40px;
+}
+.pricing-card {
+background: #fff;
+border-radius: 12px;
+padding: 30px;
+text-align: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+transition: 0.3s;
+}
+.pricing-card:hover {
+transform: translateY(-5px);
+}
+.popular {
+border: 2px solid #6C63FF;
+position: relative;
+}
+.popular::before {
+content: "Popular";
+position: absolute;
+top: -15px;
+left: 50%;
+transform: translateX(-50%);
+background: #6C63FF;
+color: #fff;
+padding: 5px 15px;
+font-size: 12px;
+border-radius: 15px;
+}
+.price {
+font-size: 28px;
+font-weight: bold;
+color: #222;
+}
+.subtext {
+font-size: 14px;
+color: #777;
+}
+.checklist {
+list-style: none;
+padding: 0;
+margin-top: 15px;
+}
+.checklist li {
+display: flex;
+align-items: center;
+gap: 8px;
+font-size: 14px;
+color: #444;
+margin-bottom: 8px;
+}
+.checklist li::before {
+content: "✔";
+color: #6C63FF;
+font-weight: bold;
+}
+.btn-custom {
+display: inline-block;
+text-decoration: none;
+font-weight: bold;
+padding: 10px 15px;
+border-radius: 8px;
+margin-top: 15px;
+transition: 0.3s;
+}
+.btn-primary-custom {
+background: #6C63FF;
+color: #fff;
+}
+.btn-primary-custom:hover {
+background: #564FC5;
+}
+.btn-outline-custom {
+border: 1px solid #6C63FF;
+color: #6C63FF;
+}
+.btn-outline-custom:hover {
+background: #6C63FF;
+color: #fff;
+}

@@ -1,0 +1,19 @@
+.nav-link {
+    color: #333; /* Dark gray text */
+    font-weight: 500;
+  }
+  .nav-link.active {
+    color: blue !important; /* Blue color for active link */
+  }
+  .btn-custom {
+    background-color: #A89CF5; /* Light purple background */
+    color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+  .btn-custom:hover {
+    background-color: #8A7CD6; /* Slightly darker purple on hover */
+  }
+
+
+  
